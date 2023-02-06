@@ -1,0 +1,6 @@
+spring:
+  datasource:
+    url: jdbc:mysql://${app.movies.mysql.host}:${app.movies.mysql.port}/${app.movies.mysql.schema}?autoReconnect=true
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: ${app.movies.mysql.username}
+    password: ${app.movies.mysql.password}
